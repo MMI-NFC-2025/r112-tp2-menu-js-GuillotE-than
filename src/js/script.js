@@ -1,10 +1,10 @@
 const nav = document.querySelector(".menu");
 
-nav.ariaHidden = "false";
+//nav.ariaHidden = "false";
 
 const toggle = document.querySelector(".menu-btn");
 
-toggle.ariaExpanded = "true";
+//toggle.ariaExpanded = "true";
 
 const body = document.body;
 
