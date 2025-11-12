@@ -15,5 +15,5 @@ toggle.addEventListener("click", () => {
     nav.ariaHidden = isOpen ? "true" : "false";
     toggle.ariaExpanded = isOpen ? "false" : "true";
     
-   
+    body.classList.toggle("noscroll");
 });
