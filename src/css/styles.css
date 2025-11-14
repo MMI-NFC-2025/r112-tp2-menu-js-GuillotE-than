@@ -1,0 +1,30 @@
+.media--fullwidth {
+  width: 100%;
+  height: auto;
+}
+nav>h4::before {
+  content: url("../../public/icones/book.svg");
+}
+nav>ul>li>a::before {
+  content: url("../../public/icones/bag-plus.svg");
+}
+nav>ul>li>ul>li>a::before {
+  content: url("../../public/icones/archive.svg");
+}
+body {
+  background: #dedede;
+}
+
+img {
+  border: 1px solid red;
+  box-shadow: 4px 4px 10px black;
+  width: 300px;
+}
+
+.icones {
+  width: 50px;
+}
+
+.dogs {
+  border: 1px solid blue;
+}
